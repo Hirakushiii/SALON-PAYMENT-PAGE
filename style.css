@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(211, 211, 211);
+    font-family: helvetica;
+}
+h1{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.menu{
+    width: 80vw;
+    height: 150px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 0 15px 10vw;
+}
+label[for="menu"],label[for="Membership"],label[for="Layanan"]{
+    font-weight: bold;
+    margin-left: 10vw;
+}
+#checkbox1{
+    margin-bottom: 10px;
+}
+#Harga{
+    float: right;
+}
+#Perawatan{
+    position: relative;
+    float: right;
+    width: 55%;
+    height: 25px;
+}
+label[for="Perawatan"]{
+    margin-bottom: 40px;
+}
+.sct-2{
+    display: flex;
+    gap: calc(9vw + 12px);
+}
+label[for="Layanan"]{
+    float: right;
+    margin-right: 10vw;
+}
+.Membership{
+    margin-left: 10vw;
+}
+.Membership, .Layanan{
+    width: 35vw;
+    height: 150px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.calc-side{
+    width: 80vw;
+    height: 50px;
+    margin: 0 auto;
+}
+#Diskon{
+    width: 25%;
+    margin: 10px 10vw 0 0;
+}
+#Total-Bayar{
+    width: 25%;
+}
+label[for="Total-Bayar"],label[for="Diskon"]{
+    font-weight: bold;
+}
+label[for="Total-Bayar"],#Total-Bayar{
+    float: right;
+    margin: 10px 3px;
+}
+.btn-area{
+    margin: 0 auto;
+}

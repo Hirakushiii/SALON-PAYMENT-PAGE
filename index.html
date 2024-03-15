@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SALON BINTANG 5</h1>
+    <label for="menu">Menu</label>
+    <div class="menu" id="menu" >
+        <label for="Perawatan">Perawatan</label>
+        <select id="Perawatan" required>
+            <option value="" disabled selected hidden>== Pilih ==</option>
+            <option value="Gunting Rambut">Gunting Rambut</option>
+            <option value="Luluran">Luluran</option>
+        </select><br><br><br><br><br>
+        <label for="Harga">Harga</label>
+        <input type="text" id="Harga" readonly disabled>
+    </div>
+    <label for="Membership">Membership</label>
+    <label for="Layanan">Layanan Tambahan</label>
+    <section class="sct-2">
+        <div class="Membership" id="Membership">
+            <input type="radio" name="pilihan" value="Member" id="radio1">
+                <label for="radio1">Member</label>
+            <input type="radio" name="pilihan" value="Non-Member" id="radio2">
+                <label for="radio2">Non-Member</label>
+        </div>
+    <div class="Layanan" id="Layanan">
+        <input type="checkbox" name="check" id="checkbox1" value="SPA">
+        <label for="checkbox1">SPA // Rp100.000.00</label><br>
+        <input type="checkbox" name="check" id="checkbox2" value="MASSAGE">
+        <label for="checkbox2">MASSAGE // Rp200.000.00</label>
+    </div>
+    </section>
+    <div class="calc-side">
+        <label for="Diskon">DISKON</label>
+        <input type="text" id="Diskon" readonly disabled>
+        <input type="text" id="Total-Bayar" readonly disabled>
+        <label for="Total-Bayar">TOTAL</label>
+    </div>
+    <span class="btn-area">
+        <button id="hitung-hasil">HITUNG</button>
+        <button id="clear">BERSIH</button>
+        <button id="keluar">KELUAR</button>
+    </span>
+    <script src="script.js"></script>
+</body>
+</html>
