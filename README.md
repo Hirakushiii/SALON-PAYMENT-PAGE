@@ -10,4 +10,4 @@ Task
 7. Biaya layanan lain
   - Spa 200000
   - Massage 100000
-8. Diklik tombol hitung maka total bayar akan tampil total bayar = (harga - diskon ) + biaya layanan
+8. Diklik tombol hitung maka total bayar akan tampil total bayar = (harga + biaya layanan) - diskon.
